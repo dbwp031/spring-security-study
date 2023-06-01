@@ -1,6 +1,6 @@
-package entities;
+package com.example.remind.entities;
 
-import entities.enums.Currency;
+import com.example.remind.entities.enums.Currency;
 import jakarta.persistence.*;
 import lombok.*;
 
