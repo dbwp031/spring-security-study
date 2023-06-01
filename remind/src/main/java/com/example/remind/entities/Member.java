@@ -1,6 +1,6 @@
-package entities;
+package com.example.remind.entities;
 
-import entities.enums.EncryptionAlgorithm;
+import com.example.remind.entities.enums.EncryptionAlgorithm;
 import jakarta.persistence.*;
 import lombok.*;
 

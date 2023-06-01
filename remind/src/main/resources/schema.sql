@@ -1,6 +1,6 @@
-CREATE TABLE IF NOT EXISTS `spring`.`user` (
+CREATE TABLE IF NOT EXISTS `spring`.`member` (
   `id` INT NOT NULL AUTO_INCREMENT,
-  `username` VARCHAR(45) NOT NULL,
+  `member_name` VARCHAR(45) NOT NULL,
   `password` TEXT NOT NULL,
   `algorithm` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id`));
@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS `spring`.`user` (
 CREATE TABLE IF NOT EXISTS `spring`.`authority` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NOT NULL,
-  `user` INT NOT NULL,
+  `member` INT NOT NULL,
   PRIMARY KEY (`id`));
 
 CREATE TABLE IF NOT EXISTS `spring`.`product` (
